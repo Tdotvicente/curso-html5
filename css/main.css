@@ -161,7 +161,7 @@ ul{
 	list-style-type: none;
 }
 
-img{
+.minha-foto{
 	float: right;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
