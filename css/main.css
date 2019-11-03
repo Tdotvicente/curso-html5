@@ -7,6 +7,7 @@
 	font-family: "Open Sans Condensed", sans-serif;
 	padding: 1.25rem;
 	border-bottom: .5rem solid black;
+
 }
 
 .texto{
@@ -22,6 +23,7 @@
 
 .citacao-bio{
 	background-color: #D9E5E3;
+<<<<<<< HEAD
 	padding: 1em;
 	border: .5em solid #C2CCCA;
 	width: 30ch;
