@@ -7,23 +7,23 @@
 	font-family: "Open Sans Condensed", sans-serif;
 	padding: 1.25rem;
 	border-bottom: .5rem solid black;
-
 }
 
 .texto{
-	width: 720px;
-	margin: auto;
+	width: 80ch;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
 }
 
 .subtitulo-texto {
-	font-size:30px;
-	font-family: "Open Sans Condensed", sans-serif;
+	font-size:1.5em;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 	clear: both;
 }
 
 .citacao-bio{
 	background-color: #D9E5E3;
-<<<<<<< HEAD
 	padding: 1em;
 	border: .5em solid #C2CCCA;
 	width: 30ch;
@@ -42,15 +42,24 @@
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
-	padding: 20px;
-	float: right;
+	padding: 1em;
+	border-left: .5em solid black;
+	border-right: .5em solid black;
 	width: 15%;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-	box-sizing: border-box;
+	float: right;
 	position: relative;
-	top: 310px;
-	right: 0;
+	top: 300px;
+}
+
+.navegacao-site a{
+	color: inherit;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-transform: lowercase;
+}
+
+.navegacao-site h1{
+	font-size: 1.5em;
+	margin-bottom: 1em;
 }
 
 .icones-sociais li {
@@ -62,12 +71,6 @@
 	height: 40px;
 	display: block;
 	text-indent: -99999px;
-}
-
-.artigo{
-	padding-bottom: 30px;
-	border-bottom: 1px solid #CCC;
-	margin-bottom: 20px;
 }
 
 .github {
@@ -86,47 +89,44 @@
 	background-image: url(../imagens/bmw.png);
 }
 
-
 #rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
-	padding: 20px;
+	padding: 1em;
 	clear: both;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	box-sizing: border-box;
 }
 
-.leia-mais{
-	padding: .5em;
-	margin: 1em;
-	display: block;
-	font-size: 1.5em;
-	text-align: center;
-	background-color: #E6E7E8;
+body {
+	background-color: #F2FFFC;
+	font-family: "Crimson Text", "Times New Roman", serif;
+	font-size: 120%;
+	line-height: 1.5;
 }
 
 main {
 	float: left;
 	width: 85%;
-	padding-bottom: 80px;
+	padding-bottom: 4em;
 }
 
 main a {
 	color: ##851944;
 }
 
-body {
-	background-color: #F2FFFC;
-	font-family: "Crimson Text", serif;
-	font-size: 20px;
-	line-height: 1.5;
+main p {
+	text-align: justify;
+	margin: 1em 0;
 }
 
-p {
-	text-align: justify;
-	margin: 20px 0;
+h1{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
 }
 
 cite{
@@ -142,16 +142,6 @@ em{
 	font-style: italic;
 }
 
-aside h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-aside a {
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-}
-
 nav a {
 	
 	color: #F2FFFC;
@@ -165,8 +155,8 @@ ul{
 
 .minha-foto{
 	float: right;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
+	border-left: .5em solid black;
+	border-bottom: .5em solid black;
 	box-sizing: border-box;
 	position: absolute;
 	top: 0;
